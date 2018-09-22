@@ -6,8 +6,9 @@ In this document we will explain  variables, the data, and  transformations of o
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
 Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)wearing a smartphone (Samsung Galaxy S II) on the waist.
 This dataset has been divided into two groups:
-	1. Training dataset, which contains all labeled data. 
-	2. Testing dataset that should be used later in the experiment.
+
+	- Training dataset, which contains all labeled data. 
+	- Testing dataset that should be used later in the experiment.
 both of these datasets are stored in text files format along with several helping documents such as: 
 	1. "features_info.txt": Shows information about the variables used on the feature vector.
 	2. "features.txt": List of all features.
