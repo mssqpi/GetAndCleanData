@@ -1,4 +1,4 @@
-##CodeBook
+## CodeBook
 
 In this document we will explain  variables, the data, and  transformations of our work that we performed to clean up the data.
 
@@ -14,7 +14,7 @@ both of these datasets are stored in text files format along with several helpin
 	3- "activity_labels.txt": Links the class labels with their activity name.
  
  
-##Geting and Cleaning Up: 
+## Geting and Cleaning Up: 
  1- first we start downloading the dataset as follows:
 	url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 	df <- "Dataset.zip"
