@@ -23,8 +23,8 @@ For each record it is provided:
 	- Its activity label. 
 	- An identifier of the subject who carried out the experiment.
 All Variables for the new merged dataset:
-	> mds <- mergeAllData("Subject","Activity")
-	> names(mds)
+	- mds <- mergeAllData("Subject","Activity")
+	- names(mds)
 
 [1] "tBodyAcc_mean_X"                   "tBodyAcc_mean_Y"                   "tBodyAcc_mean_Z"                   "tBodyAcc_std_X"                   
  [5] "tBodyAcc_std_Y"                    "tBodyAcc_std_Z"                    "tGravityAcc_mean_X"                "tGravityAcc_mean_Y"               
