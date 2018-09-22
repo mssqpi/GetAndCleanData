@@ -24,7 +24,8 @@ mergeAllData <- function(col1, col2)
 }
 
 
-#Uses descriptive activity names to name the activities in the data set
+# Uses descriptive activity names to name the activities in the data set and 
+# appropriately labels the data set with descriptive variable names
 
 describeActivity <- function(ActivityDataFile) 
   {
@@ -35,7 +36,7 @@ describeActivity <- function(ActivityDataFile)
   names(ActivityData) <- make.names(names = col_names, unique = TRUE, allow_ = TRUE)
   ActivityData
 }
-#Appropriately labels the data set with descriptive variable names
+
 describeLabels <- function(LabelsDataFile) {
   LabelData <- data.table(read.table(LabelsDataFile, header = FALSE)) 
   activityLabel <- fread(file.path(DataDir, "activity_labels.txt"))
