@@ -5,10 +5,8 @@ DataDir <- "./data/UCI HAR Dataset"
 
 
 #Merges the training and the test sets to create one data set
-mergeFunc <- function(testData, trainData,newName)
+mergeFunc <- function(testData, trainData)
 {
-  #dtTestFile <- data.table(read.table(testData, header = FALSE))  # load the test data to a data table
-  #dtTrainFile <- data.table(read.table(trainData, header = FALSE)) # load the train data to a data table
   mergedData <- rbind(testData, trainData)      # merge both data tables with repect to the rows
  
   return(mergedData)
@@ -66,6 +64,7 @@ CreateTidyDS <- function(Subj, Act, mrgdData)
 # call the main function
 main <- function()
 {
+  # load the test data to a data tables 
   Subject_testData <- paste0(DataDir,"/test/subject_test.txt")  %>% describeSubject    #the path of the subject testing data file 
                                                  
   Subject_trainData <- paste0(DataDir,"/train/subject_train.txt") %>% describeSubject  #the path of the subject training data file 
