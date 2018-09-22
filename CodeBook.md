@@ -10,9 +10,9 @@ This dataset has been divided into two groups:
 	- Training dataset, which contains all labeled data. 
 	- Testing dataset that should be used later in the experiment.
 both of these datasets are stored in text files format along with several helping documents such as: 
-	1. "features_info.txt": Shows information about the variables used on the feature vector.
-	2. "features.txt": List of all features.
-	3. "activity_labels.txt": Links the class labels with their activity name.
+	- "features_info.txt": Shows information about the variables used on the feature vector.
+	- "features.txt": List of all features.
+	- "activity_labels.txt": Links the class labels with their activity name.
  
  
 ## Geting and Cleaning Up: 
