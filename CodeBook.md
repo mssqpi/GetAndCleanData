@@ -23,6 +23,7 @@ For each record it is provided:
 	- Its activity label. 
 	- An identifier of the subject who carried out the experiment.
 All Variables for the new merged dataset:
+
 	- mds <- mergeAllData("Subject","Activity")
 	- names(mds)
 
